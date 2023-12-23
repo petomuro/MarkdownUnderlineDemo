@@ -14,6 +14,7 @@
 		EC8D21A72B37508600F9C0D4 /* MarkdownUnderlineDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D21A62B37508600F9C0D4 /* MarkdownUnderlineDemoTests.swift */; };
 		EC8D21B12B37508600F9C0D4 /* MarkdownUnderlineDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D21B02B37508600F9C0D4 /* MarkdownUnderlineDemoUITests.swift */; };
 		EC8D21B32B37508600F9C0D4 /* MarkdownUnderlineDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D21B22B37508600F9C0D4 /* MarkdownUnderlineDemoUITestsLaunchTests.swift */; };
+		EC8D21C02B37512100F9C0D4 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D21BF2B37512100F9C0D4 /* Text.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EC8D21AC2B37508600F9C0D4 /* MarkdownUnderlineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkdownUnderlineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8D21B02B37508600F9C0D4 /* MarkdownUnderlineDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownUnderlineDemoUITests.swift; sourceTree = "<group>"; };
 		EC8D21B22B37508600F9C0D4 /* MarkdownUnderlineDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownUnderlineDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC8D21BF2B37512100F9C0D4 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		EC8D21942B37508500F9C0D4 /* MarkdownUnderlineDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EC8D21952B37508500F9C0D4 /* MarkdownUnderlineDemoApp.swift */,
 				EC8D21972B37508500F9C0D4 /* ContentView.swift */,
+				EC8D21952B37508500F9C0D4 /* MarkdownUnderlineDemoApp.swift */,
+				EC8D21BF2B37512100F9C0D4 /* Text.swift */,
 				EC8D21992B37508600F9C0D4 /* Assets.xcassets */,
 				EC8D219B2B37508600F9C0D4 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC8D21982B37508500F9C0D4 /* ContentView.swift in Sources */,
+				EC8D21C02B37512100F9C0D4 /* Text.swift in Sources */,
 				EC8D21962B37508500F9C0D4 /* MarkdownUnderlineDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
